@@ -1,14 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{4DB111A8-E95E-4013-912A-3616AAD39135}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{4DB111A8-E95E-4013-912A-3616AAD39135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{FDCA0484-FC06-4A8E-AD16-5BAE57FCB6CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App.csproj", "{FDCA0484-FC06-4A8E-AD16-5BAE57FCB6CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{0CC2E588-DF6B-452F-AF7E-7768C633C1F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{0CC2E588-DF6B-452F-AF7E-7768C633C1F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{CB49E737-EE13-4F44-93F1-D0B09B354053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{CB49E737-EE13-4F44-93F1-D0B09B354053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData", "FileData\FileData.csproj", "{49B61C2C-2A7A-4349-AA8A-73CA92ED4F8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileData", "FileData\FileData.csproj", "{49B61C2C-2A7A-4349-AA8A-73CA92ED4F8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +39,11 @@ Global
 		{49B61C2C-2A7A-4349-AA8A-73CA92ED4F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49B61C2C-2A7A-4349-AA8A-73CA92ED4F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49B61C2C-2A7A-4349-AA8A-73CA92ED4F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {334B2310-F0F3-4F1A-9218-0C97CBA79E91}
 	EndGlobalSection
 EndGlobal
