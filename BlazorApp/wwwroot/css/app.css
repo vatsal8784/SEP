@@ -12,9 +12,11 @@
         font-family: 'Lato', sans-serif;
     }
 
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        padding-right: var(--bs-gutter-x,5rem);
-        padding-left: var(--bs-gutter-x,5rem);
+    @media (min-width: 1200px) {
+        .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            padding-right: var(--bs-gutter-x,5rem);
+            padding-left: var(--bs-gutter-x,5rem);
+        }
     }
 
     @media (min-width: 1400px) {
@@ -29,7 +31,7 @@
 
     .display {
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 120px;
     }
 
@@ -53,7 +55,7 @@
 
     h4 {
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 20px;
     }
 
